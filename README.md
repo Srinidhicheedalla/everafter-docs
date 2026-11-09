@@ -5,14 +5,14 @@ A practical technical writing project demonstrating product documentation using 
 
 ## About the Project
 
-EverAfter Documentation is a sample documentation website created to demonstrate clear, structured and user-friendly technical writing.
+EverAfter Documentation is a sample documentation website created to demonstrate clear, structured, and user-friendly technical writing.
 
-It includes step-by-step guides, account management instructions and frequently asked questions.
+It includes step-by-step guides, account management instructions, and frequently asked questions.
 
 ## Documentation Sections
 
 - **Getting Started** – Introduction and basic guidance.
-- **Account Management** – Login, registration and password recovery.
+- **Account Management** – Login, registration, and password recovery.
 - **Help & Support** – FAQs and troubleshooting guidance.
 
 ## Tools & Technologies
