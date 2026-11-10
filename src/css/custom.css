@@ -1,30 +1,155 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
 
-/* You can override the default Infima variables here. */
+/* =================================
+   EVERAFTER DOCUMENTATION
+   Brand Theme: White + Muted Burgundy
+================================= */
+
+/* 1. Main colour settings */
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #783B50;
+  --ifm-color-primary-dark: #6D3548;
+  --ifm-color-primary-darker: #622F41;
+  --ifm-color-primary-darkest: #512637;
+  --ifm-color-primary-light: #884B60;
+  --ifm-color-primary-lighter: #985B70;
+  --ifm-color-primary-lightest: #A96D81;
+
+  --ifm-background-color: #FFFFFF;
+  --ifm-background-surface-color: #FFFFFF;
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-footer-background-color: #FFFFFF;
+
+  --ifm-font-color-base: #333333;
+  --ifm-heading-color: #783B50;
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg:
+    rgba(120, 59, 80, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* 2. Navbar */
+
+.navbar {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(120, 59, 80, 0.08);
+}
+
+.navbar__title,
+.navbar__link {
+  color: #783B50;
+  font-weight: 600;
+}
+
+.navbar__link:hover {
+  color: #A96D81;
+}
+
+/* 3. Sidebar */
+
+.theme-doc-sidebar-container {
+  background-color: #FFFFFF;
+  border-right: 1px solid #E8DDE1;
+}
+
+.menu {
+  background-color: #FFFFFF;
+}
+
+.menu__link {
+  color: #783B50;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  color: #783B50;
+  background-color: rgba(120, 59, 80, 0.08);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  color: #783B50;
+  background-color: rgba(120, 59, 80, 0.12);
+  font-weight: 700;
+}
+
+.menu__list-item-collapsible:hover {
+  background-color: rgba(120, 59, 80, 0.06);
+}
+
+/* 4. Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #783B50;
+}
+
+/* 5. Links */
+
+a {
+  color: #783B50;
+}
+
+a:hover {
+  color: #A96D81;
+}
+
+/* 6. Buttons */
+
+.button--primary {
+  background-color: #783B50;
+  border-color: #783B50;
+  color: #FFFFFF;
+}
+
+.button--primary:hover {
+  background-color: #622F41;
+  border-color: #622F41;
+  color: #FFFFFF;
+}
+
+/* 7. Right-side table of contents */
+
+.table-of-contents__link {
+  color: #783B50;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: #783B50;
+  font-weight: 600;
+}
+
+/* 8. Footer */
+
+.footer {
+  background-color: #FFFFFF;
+  border-top: 1px solid #E8DDE1;
+}
+
+.footer,
+.footer__title,
+.footer__link-item,
+.footer__copyright {
+  color: #783B50;
+}
+
+.footer__link-item:hover {
+  color: #A96D81;
+}
+
+/* 9. Dark mode brand colours */
+
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #A96D81;
+  --ifm-color-primary-dark: #985B70;
+  --ifm-color-primary-darker: #884B60;
+  --ifm-color-primary-darkest: #783B50;
+  --ifm-color-primary-light: #BB8798;
+  --ifm-color-primary-lighter: #CCA2B0;
+  --ifm-color-primary-lightest: #DDBDC8;
 }
