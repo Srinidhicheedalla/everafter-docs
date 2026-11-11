@@ -38,66 +38,95 @@ export default function Home() {
       <main style={{
         maxWidth: '1150px',
         margin: '0 auto',
-        padding: '70px 24px',
+        padding: '55px 24px',
       }}>
 
         {/* Hero Section */}
         <section style={{
-          textAlign: 'center',
-          padding: '65px 20px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: '45px',
+          padding: '45px 35px',
           borderRadius: '16px',
-          background: '#FFFFFF',
+          background: '#FAF5F6',
+          flexWrap: 'wrap',
         }}>
-          <p style={{
-            color: '#783B50',
-            fontWeight: '700',
-            letterSpacing: '3px',
-            fontSize: '13px',
-          }}>
-            EVERAFTER PRODUCT DOCUMENTATION
-          </p>
 
-          <h1 style={{
-            color: '#783B50',
-            fontSize: 'clamp(36px, 6vw, 58px)',
-            marginBottom: '20px',
-          }}>
-            Welcome to EverAfter
-          </h1>
-
-          <p style={{
-            maxWidth: '700px',
-            margin: '0 auto',
-            fontSize: '19px',
-            lineHeight: '1.8',
-            color: '#444444',
-          }}>
-            Your guide to a better experience.
-            Explore simple instructions, helpful resources
-            and step-by-step application guides.
-          </p>
-
+          {/* Left Content */}
           <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '14px',
-            flexWrap: 'wrap',
-            marginTop: '30px',
+            flex: '1 1 350px',
+            textAlign: 'left',
           }}>
-            <Link
-              className="button button--primary button--lg"
-              to="/docs/intro"
-            >
-              Explore Documentation →
-            </Link>
+            <p style={{
+              color: '#783B50',
+              fontWeight: '700',
+              letterSpacing: '2px',
+              fontSize: '13px',
+            }}>
+              EVERAFTER PRODUCT DOCUMENTATION
+            </p>
 
-            <Link
-              className="button button--outline button--lg"
-              to="/docs/account-management/login"
-            >
-              Login Guide
-            </Link>
+            <h1 style={{
+              color: '#783B50',
+              fontSize: 'clamp(34px, 5vw, 52px)',
+              marginBottom: '18px',
+            }}>
+              Welcome to EverAfter
+            </h1>
+
+            <p style={{
+              fontSize: '18px',
+              lineHeight: '1.8',
+              color: '#444444',
+            }}>
+              Your guide to a better experience.
+              Explore simple instructions, helpful resources
+              and step-by-step application guides.
+            </p>
+
+            <div style={{
+              display: 'flex',
+              gap: '12px',
+              flexWrap: 'wrap',
+              marginTop: '25px',
+            }}>
+              <Link
+                className="button button--primary button--lg"
+                to="/docs/intro"
+              >
+                Explore Documentation →
+              </Link>
+
+              <Link
+                className="button button--outline button--lg"
+                to="/docs/account-management/login"
+              >
+                Login Guide
+              </Link>
+            </div>
           </div>
+
+          {/* Right Image */}
+          <div style={{
+            flex: '1 1 300px',
+            textAlign: 'center',
+          }}>
+            <img
+              src="/img/everafter-banner.jpg"
+              alt="EverAfter Matrimony"
+              style={{
+                width: '100%',
+                maxWidth: '440px',
+                height: '310px',
+                objectFit: 'cover',
+                borderRadius: '14px',
+                display: 'block',
+                margin: '0 auto',
+              }}
+            />
+          </div>
+
         </section>
 
         {/* Documentation Cards */}
@@ -128,7 +157,6 @@ export default function Home() {
                   textDecoration: 'none',
                   color: '#333333',
                   background: '#FFFFFF',
-                  transition: 'border-color 0.2s, transform 0.2s',
                 }}
               >
                 <div style={{
