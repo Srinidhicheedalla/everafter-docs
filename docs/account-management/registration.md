@@ -1,36 +1,60 @@
 ---
-title: User Registration
+title: User Registration Guide
+description: Learn how to create an EverAfter account
 ---
 
-# User Registration
+# User Registration Guide
 
-## Overview
+## 1. Overview
 
-This guide explains how a new user can
-create an EverAfter account.
+This guide explains how new users can create an account on EverAfter.
 
-## Prerequisites
+## 2. Prerequisites
 
-- Valid email address
-- Required personal information
+Before registering, make sure you have:
 
-## Steps
+- A valid email address.
+- A stable internet connection.
+- Access to a supported web browser.
 
-1. Open the EverAfter application.
-2. Navigate to the Registration page.
-3. Enter the required details.
-4. Review the information.
-5. Submit the registration form.
+## 3. Registration Steps
 
-## Expected Result
+### Step 1: Open the Registration Page
 
-The application should display the
-registration confirmation.
+Navigate to the EverAfter homepage and select **Register**.
 
-## Troubleshooting
+### Step 2: Enter Your Details
 
-| Issue | Suggested Solution |
+Fill in the required information in the registration form.
+
+### Step 3: Review Your Information
+
+Check the details you entered to make sure they are correct.
+
+### Step 4: Submit the Form
+
+Select **Create Account** to submit your registration.
+
+### Step 5: Confirm Registration
+
+Follow any confirmation instructions displayed by the application.
+
+## 4. Expected Result
+
+A successful registration should create a new user account and display a confirmation message.
+
+## 5. Troubleshooting
+
+| Problem | Suggested Action |
 |---|---|
-| Missing fields | Complete all required fields |
-| Invalid email | Check the email format |
-| Submission failed | Try again after checking connectivity |
+| Invalid email address | Check the email format. |
+| Missing required fields | Complete all mandatory fields. |
+| Registration not submitted | Check your internet connection and try again. |
+
+:::tip
+Always review your details before submitting the registration form.
+:::
+
+:::note
+This is illustrative documentation for the EverAfter portfolio project. Actual application behaviour may differ.
+:::
