@@ -1,4 +1,3 @@
-
 ---
 title: Installation Guide
 description: Instructions for setting up the EverAfter application

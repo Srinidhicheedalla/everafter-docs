@@ -17,12 +17,6 @@ const sidebars = {
 
     {
       type: 'category',
-      label: 'Release Notes',
-      items: ['release-notes/version-1'],
-    },
-
-    {
-      type: 'category',
       label: 'Account Management',
       items: [
         'account-management/registration',
@@ -33,14 +27,27 @@ const sidebars = {
 
     {
       type: 'category',
-      label: 'Help & Support',
-      items: ['help-support/faq'],
+      label: 'API Reference',
+      items: ['api-reference/user-registration-api'],
     },
+
+    {
+      type: 'category',
+      label: 'Release Notes',
+      items: ['release-notes/version-1'],
+    },
+
     {
       type: 'category',
       label: 'Project Management',
       items: ['project-management/sprint-1'],
-    }
+    },
+
+    {
+      type: 'category',
+      label: 'Help & Support',
+      items: ['help-support/faq'],
+    },
   ],
 };
 
